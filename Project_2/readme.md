@@ -20,6 +20,9 @@ Default Rate (%) by Year: Tracks historical default trends from 2013 to 2018—h
 ![Screenshot 2025-06-26 172656](https://github.com/user-attachments/assets/578c15a3-9127-43af-bbce-f0006b48ac76)
 
 
+
+
+
 🔹 Page 3: Financial Risk Metrics
 
 This section focuses on temporal changes and risk segmentation:
@@ -42,7 +45,11 @@ Self-employed and low-income groups show relatively smaller shares.
 ![Screenshot 2025-06-26 172729](https://github.com/user-attachments/assets/5d28b29b-f19e-4bf7-a693-c9328b88e5f8)
 
 
+
+
+
 📌 Key Features
+
 Interactive Filters for drilling down into demographics and risk factors.
 
 Time-Series Analysis to monitor trends over years.
@@ -51,7 +58,12 @@ Employment & Income Segmentation for identifying high-risk borrower groups.
 
 Credit Score & Marital Status Breakdown to understand patterns in lending.
 
+
+
+
+
 🛠️ Tools & Techniques Used
+
 Power BI Desktop
 
 Power Query: For data cleansing and transformation.
@@ -59,6 +71,10 @@ Power Query: For data cleansing and transformation.
 DAX Measures: Custom KPIs for YOY % changes, averages, bins.
 
 Visuals: Line charts, area charts, waterfall charts, and Sankey diagrams.
+
+
+
+
 
 📂 Data Source
 
@@ -68,4 +84,5 @@ Visuals: Line charts, area charts, waterfall charts, and Sankey diagrams.
 Page:-2
 
 ![Screenshot 2025-06-26 172715](https://github.com/user-attachments/assets/b6cdd28f-2cc3-4a06-8bc7-87be6f79a4b7)
+
 
