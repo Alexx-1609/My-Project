@@ -84,11 +84,12 @@ This project presents a comprehensive analysis of loan application data using **
 
 ### Prerequisites
 - [Power BI Desktop](https://powerbi.microsoft.com/desktop/)
-- File: [LoanAnalysis.pbix](./Project_2.pbix)
+- File: [Project_2.pbix](./Project_2.pbix)
 
 ### Usage
 1. Clone this repository.
-2. Open `[LoanAnalysis.pbix](./Project_2.pbix)` in Power BI Desktop.
+2. Open [Project_2.pbix](./Project_2.pbix) in Power BI Desktop.
 3. Explore the report using the built-in slicers and visuals.
 
-
+## 👤 Author
+Utkarsh Raj
