@@ -6,7 +6,7 @@ This project presents a comprehensive analysis of loan application data using **
 ---
 
 ## 📁 Dataset
-- **File Name**: `Loan_default.csv`
+- **File Name**: [Project_2_dataset.csv.gz](https://github.com/user-attachments/files/20946231/Project_2_dataset.csv.gz)
 - **Volume**: 5,000+ loan application records
 - **Dimensions**:
   - `CreditScore`
@@ -72,11 +72,11 @@ This project presents a comprehensive analysis of loan application data using **
 
 ## 📸 Preview
 
-> *(Save images in the `/images` directory in the repo)*
 
-- ![Page 1 – Loan Overview](images/page1.png)
-- ![Page 2 – Demographics](images/page2.png)
-- ![Page 3 – Risk Metrics](images/page3.png)
+- ![Screenshot 2025-06-26 172656](https://github.com/user-attachments/assets/d158faca-c29f-4b95-a7ab-a477ed884552)
+- ![Screenshot 2025-06-26 172715](https://github.com/user-attachments/assets/f45661c6-27b3-459a-b74a-3bf07ff069eb)
+- ![Screenshot 2025-06-26 172729](https://github.com/user-attachments/assets/fa9bda3f-83e7-458c-a7d5-4ba7cfc16bef)
+
 
 ---
 
@@ -84,12 +84,11 @@ This project presents a comprehensive analysis of loan application data using **
 
 ### Prerequisites
 - [Power BI Desktop](https://powerbi.microsoft.com/desktop/)
-- File: `Project_2.pbix`
+- File: [LoanAnalysis.pbix](./Project_2.pbix)
 
 ### Usage
 1. Clone this repository.
-2. Open `Project_2.pbix` in Power BI Desktop.
+2. Open `[LoanAnalysis.pbix](./Project_2.pbix)` in Power BI Desktop.
 3. Explore the report using the built-in slicers and visuals.
 
-```bash
-git clone https://github.com/your-username/loan-risk-powerbi.git
+
