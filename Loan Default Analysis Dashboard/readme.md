@@ -7,7 +7,7 @@ This project presents a comprehensive analysis of loan application data using **
 
 ## 📁 Dataset
 - **File Name**: [Project_2_dataset.csv.gz](https://github.com/user-attachments/files/20946231/Project_2_dataset.csv.gz)
-- **Volume**: 5,000+ loan application records
+- **Volume**: 2,00,000+ loan application records
 - **Dimensions**:
   - `CreditScore`
   - `Age` (Grouped by segments)
