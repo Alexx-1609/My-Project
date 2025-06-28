@@ -76,7 +76,11 @@ This project presents a comprehensive analysis of loan application data using **
 - ![Screenshot 2025-06-26 172656](https://github.com/user-attachments/assets/d158faca-c29f-4b95-a7ab-a477ed884552)
 - ![Screenshot 2025-06-26 172715](https://github.com/user-attachments/assets/f45661c6-27b3-459a-b74a-3bf07ff069eb)
 - ![Screenshot 2025-06-26 172729](https://github.com/user-attachments/assets/fa9bda3f-83e7-458c-a7d5-4ba7cfc16bef)
-  https://github.com/user-attachments/assets/f183c791-7f9e-44e1-be4a-324ff96108d3
+ 
+https://github.com/user-attachments/assets/4197789f-e7dd-4bf1-a40d-ee1b526ee52d
+
+
+
 
 
 
