@@ -125,13 +125,14 @@ Built to enable **data-driven decisions**, this dashboard combines dynamic filte
 ## 🖼️ Dashboard Preview
 
 ### 📊 Page 1 – Monthly UPI Trends
-![Page 1](./Screenshot%202025-06-29%20083506.png)
+![Screenshot 2025-06-29 085133](https://github.com/user-attachments/assets/ff6f06ef-1b03-43a5-b535-203e84608c53)
 
 ### 🧮 Page 2 – Currency Matrix by City
-![Page 2](./Screenshot%202025-06-29%20083528.png)
+![Screenshot 2025-06-29 085156](https://github.com/user-attachments/assets/10d2261c-4701-4f86-a1dc-91e1b8654218)
 
 ---
 
 ## 👨‍💼 Author
 
 **Utkarsh Raj**  
+*Self Taught Data Analyst*
