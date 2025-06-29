@@ -1,138 +1,124 @@
-<h1 align="center">💸 UPI Transaction Dashboard</h1>
+<h1 align="center">📊 UPI Transaction Intelligence Dashboard</h1>
 <p align="center">
-  <b>A Smart Analytics Project Built in Power BI</b><br>
-  <i>Analyze UPI payments, spot trends, and track balances across Indian cities, devices, and currencies — all in one sleek dashboard.</i>
+  <strong>End-to-End Power BI Solution for Real-Time UPI Transaction Analytics</strong><br>
+  <i>Unlock transaction patterns, analyze city-bank-currency dynamics, and monitor financial flows — all in an interactive, filter-rich dashboard.</i>
 </p>
 
 ---
 
-## 🧾 Project Overview
+## 🚀 Overview
 
-The **UPI Transaction Dashboard** is a highly interactive and visually rich Power BI dashboard that helps users:
-- 🧠 Understand monthly transaction behavior
-- 🏙️ Analyze city and currency-wise breakdowns
-- 📈 Detect spikes or anomalies in transaction volumes
+This Power BI dashboard delivers a data-driven lens into India's UPI (Unified Payments Interface) transaction ecosystem. Designed for fintech analysts, policy researchers, and banking professionals, the dashboard enables:
 
-Built to enable **data-driven decisions**, this dashboard combines dynamic filtering, insightful visuals, and a clean layout for a seamless user experience.
+- ⚡ Dynamic slicing across 10+ filters  
+- 🌍 Multi-city & multi-currency comparisons  
+- 🔁 Yearly transaction trend exploration  
+- 💼 Merchant, device, and demographic segmentation  
 
----
-
-## 🔍 Dashboard Structure
-
-| 📄 Page | Description |
-|--------|-------------|
-| **Page 1** | 📊 **Monthly Transaction Summary** – Column & Line Charts of monthly balances (2024) |
-| **Page 2** | 🧮 **City x Currency Matrix** – Monthly UPI values & remaining balances across cities with heatmaps |
+With modern visuals and insightful metrics, the dashboard makes sense of high-volume financial data at scale.
 
 ---
 
-## 📊 Page 1 – Monthly Trend Analysis
+## 🗂️ Data Architecture
 
-> **Visuals:** Toggle between Line Chart & Column Chart  
-> **Metric:** Total UPI Balances per Month  
-> **Timeline:** Year 2024  
+- **📍 Cities Covered:** Mumbai, Delhi, Bangalore, Hyderabad  
+- **💵 Currencies Tracked:** INR, USD, EUR, GBP  
+- **🏦 Financial Entities:** Sender & Receiver Banks  
+- **🎯 Parameters Analyzed:** Age Group, Gender, Device Type, Merchant, Payment Method, Purpose  
 
-### 🧩 Filters Included:
-- `BankNameSent`, `BankNameReceived`, `City`, `DeviceType`, `Gender`
-- `Age Groups`, `Merchant Name`, `Payment Method`, `Purpose`, `Transaction Type`
+📌 **Excel Source:**  [UPI Transactions.xlsx](https://github.com/user-attachments/files/20967974/UPI.Transactions.xlsx)
 
-> Use the chart toggle to switch between visual styles and drill down into your preferred view!
+📊 **Power BI File:**  `Project 3.pbix`
 
----
-
-## 🏙️ Page 2 – City & Currency Matrix
-
-> **Visuals:** Matrix table with heatmap-style conditional formatting  
-> **Metric:** Monthly `Amount` and `Remaining Balance` by City & Currency  
-
-### 💹 Cities & Currencies:
-- 🏦 Bangalore – EUR  
-- 🏛️ Delhi – USD  
-- 🕌 Hyderabad – GBP  
-- 🏢 Mumbai – INR
-
-### 🔥 Highlights:
-- Spot months with high transactions using red heatmaps
-- Compare city performances side by side
-- Monitor multi-currency UPI flow at scale
+Data was cleaned and shaped using Power Query (M Language), and advanced logic was implemented with DAX.
 
 ---
 
-## 🗃️ Dataset Info
+## 🌐 Dashboard Walkthrough
 
-| File | Description |
-|------|-------------|
-| `UPI Transactions.xlsx` | Mock dataset used as data source for the dashboard |
+### 📄 Page 1: Monthly Overview & Interactions
 
-### ✨ Key Fields:
-`Transaction Date`, `City`, `Bank`, `Device Type`, `Age Group`, `Gender`, `Merchant Name`, `Currency`, `Amount`, `Remaining Balance`, `Payment Method`, `Purpose`, `Transaction Type`
+- **📈 Line Chart:** Month-wise transaction amount trends for 2024.  
+- **🔘 Toggle Buttons:** Instantly switch between Amount and Balance views in Line or Column charts.  
+- **🧮 Filters:** Gender, Device, Bank, Merchant, Transaction Type, City, Currency, Age Group, and more.
 
----
+### 🧮 Page 2: Deep-Dive Matrix View
 
-## ⚙️ Tech Stack
-
-| Component     | Details                                  |
-|---------------|-------------------------------------------|
-| 🧰 Tool        | Power BI Desktop                          |
-| 💡 Language    | DAX, M (Power Query)                      |
-| 📁 File Type   | `.pbix` (Power BI Project File)           |
-| 🔗 Data Source | `.xlsx` (UPI Transactions dataset)        |
+- **🧾 Matrix Table:** Breaks down amount and balance per city-currency-month.  
+- **🎨 Conditional Formatting:** Highlights peak values using red intensity shading.  
+- **📊 Usability:** Allows granular analysis by combining slicers and table metrics.
 
 ---
 
-## 📚 What I Learned
+## 💻 Tech Stack
 
-- ✅ Cleaned and transformed data using **Power Query**
-- ✅ Created calculated measures and KPIs using **DAX**
-- ✅ Designed **conditional formatting** for anomaly detection
-- ✅ Built responsive **filters & slicers** for drilldown analysis
-- ✅ Implemented a **chart toggle feature** for dynamic visuals
-
----
-
-## 📂 Repository Structure
-
-| File Name              | Purpose                                           |
-|------------------------|---------------------------------------------------|
-| `Project 3.pbix`       | Power BI dashboard project file                   |
-| `UPI Transactions.xlsx`| Raw data source used for the report               |
-| `README.md`            | This documentation                                |
-| `Screenshot_1.png`     | 📸 Preview – Page 1 (Monthly Trends)               |
-| `Screenshot_2.png`     | 📸 Preview – Page 2 (City-Currency Matrix)         |
+| 🔧 Component      | 📝 Details                                |
+|------------------|-------------------------------------------|
+| Tool             | Power BI Desktop                          |
+| Language         | DAX (Data Analysis Expressions), M Query  |
+| Data Format      | `.pbix`, `.xlsx`                          |
+| Source Type      | Local flat file (Excel-based simulation)  |
 
 ---
 
-## 🚀 Getting Started
+## 🧠 Analytical Features
 
-1. 📥 [Download Power BI Desktop](https://powerbi.microsoft.com/desktop/)
-2. 📁 Clone or download this repository
-3. 📂 Open `Project 3.pbix` in Power BI Desktop
-4. 🔗 Reconnect the Excel dataset if prompted (`UPI Transactions.xlsx`)
-5. 🎯 Interact with slicers, filters, and chart toggles to explore data
-
----
-
-## 🎯 Use Cases
-
-- 📈 Monitor UPI growth trends across months and regions  
-- 🌐 Compare cities by transaction behavior and currency usage  
-- 📊 Detect anomalies in transaction volumes  
-- 🧭 Segment users by demographic and device insights  
-- 💹 Perform time-series analysis on digital payment flow
+- 📅 **Temporal Trendlines** – Navigate month-wise flow patterns  
+- 🏙 **City-Level Disaggregation** – Compare region-wise performance  
+- 💱 **Multi-Currency Analysis** – Explore INR, USD, EUR, GBP behaviors  
+- 🏷 **Slicer-Driven Filtering** – Combine up to 12 filters for hyper-granular queries  
+- 🔄 **Balance vs. Amount Toggle** – Focus on transaction volume or retained funds  
+- ✨ **Polished UI** – Minimalist style with smooth shadows and interactive controls
 
 ---
 
-## 🖼️ Dashboard Preview
+## 🛠 How to Use
 
-### 📊 Page 1 – Monthly UPI Trends
-![Screenshot 2025-06-29 085133](https://github.com/user-attachments/assets/ff6f06ef-1b03-43a5-b535-203e84608c53)
+```bash
+# Clone the repo
+git clone https://github.com/your-username/upi-transaction-dashboard.git
 
-### 🧮 Page 2 – Currency Matrix by City
-![Screenshot 2025-06-29 085156](https://github.com/user-attachments/assets/10d2261c-4701-4f86-a1dc-91e1b8654218)
+# Open in Power BI
+Launch `Project 3.pbix` with Power BI Desktop
+
+# Link Data
+Ensure `UPI Transactions.xlsx` is in the root directory if prompted
+
+# Explore
+Use filters, interact with visualizations, and extract insights!
+```
+
+---
+
+## 📍 Key Takeaways
+
+- 🔝 Transaction surges observed in **May** and **October**  
+- 🏦 **Delhi** shows highest transaction volumes in **USD**  
+- ⬇️ **August** consistently reports the lowest activity  
+- 📱 Usage of device and payment method type impacts transaction scale  
+
+---
+
+## 📸 Visual Gallery
+
+📊 Page 1: Overview 
+
+![Screenshot 2025-06-29 185426](https://github.com/user-attachments/assets/eb6fb2df-135f-48e3-a9ac-b1097a602c1a)
+
+🧾 Page 2: Matrix Insights
+
+![Screenshot 2025-06-29 185450](https://github.com/user-attachments/assets/14accbc5-284b-4523-8da0-9f67bacb405e)
+
+
+https://github.com/user-attachments/assets/d00cb783-69d9-4bd2-926c-60427bec33b6
+
+
+
 
 ---
 
 ## 👨‍💼 Author
-
 **Utkarsh Raj**  
 *Self Taught Data Analyst*
+
+---
