@@ -1,39 +1,66 @@
 # 🏦 Banking Data Analysis Dashboard
 
-## 🚀 Project Overview
-Welcome to the Banking Data Analysis Dashboard — a Power BI project designed to turn raw banking data into clear, interactive insights.
+## Project Overview
+This project presents a Banking Data Analysis Dashboard developed using Microsoft Power BI. The dashboard analyzes transaction trends, customer segmentation, account distribution, and balance performance using an interactive reporting approach.
 
-This dashboard explores customer demographics, account balances, and transaction patterns, transforming structured data into meaningful visual stories. The project highlights hands-on experience in SQL data preparation and Power BI visualization.
+The project demonstrates practical experience in SQL-based data preparation and Power BI data modeling, KPI creation, and visualization.
 
-## 📊 Dataset
+---
+
+## Dataset
 The project uses a synthetic dataset of 10,000 records generated using Perplexity AI for analytical and educational purposes.
 
 The dataset was:
 - Populated and managed in MS SQL Server  
 - Cleaned and transformed using SQL queries  
-- Modeled and visualized in Power BI using Power Query and DAX  
+- Modeled and prepared in Power BI using Power Query and DAX  
 
-The data simulates real-world banking operations, including:
-- Customer demographics  
-- Account balances  
-- Credit and debit transactions  
-- Financial activity metrics  
+The data includes customer details, account types, transaction records, and balance information.
 
-## 🎯 What This Dashboard Delivers
-- Customer segmentation by age group and gender  
-- KPI-driven insights (Total Customers, Total Balance, Transactions)  
-- Credit vs Debit transaction comparison  
-- Interactive filtering and drill-down analysis  
-- Clean, executive-style dashboard design  
+---
 
-## 🛠️ Skills Applied
-- SQL data cleaning and transformation  
-- Database handling in MS SQL Server  
-- Data modeling and DAX calculations  
-- Power Query transformations  
-- Business-focused dashboard design  
+# 📄 Dashboard Structure
 
-## 💻 Tools Used
+## 📊 Page 1 – Transaction & Account Overview
+
+This page focuses on transaction activity and account-level insights.
+
+### Visuals & KPIs:
+- Monthly Transaction Amount by Month  
+- Count of Transactions by Transaction Type (Credit vs Debit)  
+- Inactive Accounts by Year and Month  
+- Total Balance by Account Type (Savings vs Current)  
+- Total Amount by Customer Name  
+
+This page provides a high-level financial activity summary and account distribution analysis.
+
+---
+
+## 👥 Page 2 – Customer & Balance Analysis
+
+This page focuses on customer segmentation and balance trends.
+
+### Visuals & KPIs:
+- Customer Count by Gender  
+- Number of Customers by Age Group  
+- Account Count by Account Type  
+- Monthly Transaction Balance by Month  
+- Total Balance by Customer Name  
+
+This page helps analyze demographic distribution and customer-level financial contribution.
+
+---
+
+## Technical Skills Demonstrated
+- SQL data cleaning and transformation (MS SQL Server)  
+- Data modeling and relationship handling in Power BI  
+- DAX calculated columns (e.g., Age Group segmentation)  
+- KPI and performance metric creation  
+- Interactive dashboard design and professional theming  
+
+---
+
+## Tools & Technologies
 - Microsoft Power BI  
 - MS SQL Server  
 - SQL  
@@ -42,7 +69,26 @@ The data simulates real-world banking operations, including:
 
 ---
 
-### 👨‍💻 Built by
-Utkarsh Raj  
+## Dashboard Preview
+<img width="1310" height="655" alt="Screenshot 2026-02-22 185341" src="https://github.com/user-attachments/assets/66c1f18f-9e93-47fd-af76-ea2a55f0a0c4" />
 
-Turning data into decisions — one dashboard at a time.
+<img width="1308" height="661" alt="Screenshot 2026-02-22 185353" src="https://github.com/user-attachments/assets/e759bfb6-0954-40e5-a0d7-fd97120b0463" />
+
+https://github.com/user-attachments/assets/b2caf6bc-8651-4dc1-838a-019f9e6f6a4e
+
+---
+
+## 🚀 How to Use
+
+1. Download the `.pbix` file from this repository.  
+2. Open the file using Microsoft Power BI Desktop.  
+3. Ensure MS SQL Server is running and accessible.  
+4. Update data source credentials if required.  
+5. Click **Refresh** to load the latest data.  
+6. Navigate between Page 1 and Page 2 to explore insights.  
+7. Use slicers and filters to interact with the dashboard visuals.
+
+---
+
+## 👨‍💻 Author
+Utkarsh Raj
